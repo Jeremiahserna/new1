@@ -11,7 +11,7 @@ def load_lottieurl(url):
     return r.json()
 
 # Set page configuration
-st.set_page_config(page_title="Programming is Fun", page_icon="💻", layout="wide")
+st.set_page_config(page_title="my webpage", page_icon="💻", layout="wide")
 
 # Load local CSS
 def local_css(file_name):
@@ -35,7 +35,7 @@ except FileNotFoundError:
 
 # Header section
 with st.container():
-    st.subheader("Hi, I am Haidee Grace")
+    st.subheader("Hi, I am Jeremiah serna")
     st.title("Discover How Fun Computer Engineering Can Be!")
     st.write(
         """
