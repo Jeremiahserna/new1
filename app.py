@@ -31,7 +31,7 @@ img_contact_form = None
 img_github = None
 try:
     img_contact_form = Image.open("jeremiahh")
-    img_github = Image.open("images/nn.jpg")
+    img_github = Image.open("jeremiahh.jpg")
 except FileNotFoundError as e:
     st.error(f"Image file not found: {e}")
 
