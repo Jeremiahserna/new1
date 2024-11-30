@@ -11,7 +11,7 @@ def load_lottieurl(url):
     return r.json()
 
 # Set page configuration
-st.set_page_config(page_title="my webpage", page_icon="💻", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon="💻", layout="wide")
 
 # Load local CSS
 def local_css(file_name):
@@ -19,7 +19,7 @@ def local_css(file_name):
         with open(file_name) as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
     except FileNotFoundError:
-        st.error("CSS file not found. Make sure the path is correct.")
+        st.error("CSS file not found. Ensure the file exists at the specified path.")
 
 local_css("style/style.css")
 
@@ -27,15 +27,17 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 
 # Load images
+img_contact_form = None
+img_github = None
 try:
-    img_contact_form = Image.open("image/nn.jpg")
+    img_contact_form = Image.open("images/nn.jpg")
     img_github = Image.open("images/nn.jpg")
-except FileNotFoundError:
-    st.error("Image file not found. Make sure the paths are correct.")
+except FileNotFoundError as e:
+    st.error(f"Image file not found: {e}")
 
 # Header section
 with st.container():
-    st.subheader("Hi, I am Jeremiah serna")
+    st.subheader("Hi, I am Jeremiah Serna")
     st.title("Discover How Fun Computer Engineering Can Be!")
     st.write(
         """
@@ -63,14 +65,17 @@ with st.container():
         if lottie_coding:
             st_lottie(lottie_coding, height=300, key="coding")
         else:
-            st.error("Lottie animation could not load.")
+            st.error("Lottie animation could not load. Please check the URL.")
 
 # Insights and reflections
 with st.container():
     st.write("---")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_contact_form, caption="Debugging: The Ultimate Puzzle")
+        if img_contact_form:
+            st.image(img_contact_form, caption="Debugging: The Ultimate Puzzle")
+        else:
+            st.error("Image not loaded.")
     with text_column:
         st.write(
             """
@@ -120,6 +125,12 @@ with st.container():
     """
     left_column, right_column = st.columns(2)
     with left_column:
-        st.markdown(contact_form, unsafe_allow_html=True)
+        st.markdown(contact_form.replace("{your-form-id}", "YOUR_ACTUAL_FORM_ID"), unsafe_allow_html=True)
     with right_column:
         st.empty()
+
+
+    
+
+
+   
