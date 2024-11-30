@@ -30,7 +30,7 @@ lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fc
 img_contact_form = None
 img_github = None
 try:
-    img_contact_form = Image.open("https://github.com/Jeremiahserna/new1/blob/main/jeremiahh.jpg?raw=true")
+    img_contact_form = Image.open("jeremiahh")
     img_github = Image.open("images/nn.jpg")
 except FileNotFoundError as e:
     st.error(f"Image file not found: {e}")
