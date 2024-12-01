@@ -51,12 +51,10 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("Computer Programming: First-Year Perspective")
+        st.header("First-Year Insights into Computer Programming")
         st.write(
             """
-            Stepping into university was a mix of excitement and nerves. 
-            Learning programming felt like discovering a new secret language.
-            From binary to algorithms, it’s been an adventure worth experiencing!
+            Starting university brought a blend of anticipation and curiosity. Diving into programming felt like unlocking a hidden code to the digital world. From simple logic to complex algorithms, it’s been a thrilling journey of discovery!
             """
         )
         st.write("[Learn more >](https://www.youtube.com/watch?v=VqgUkExPvLY)")
@@ -78,9 +76,9 @@ with st.container():
     with text_column:
         st.write(
             """
-            Programming assignments are thrilling and sometimes challenging. 
-            Debugging feels like a daily workout, but the satisfaction of solving a problem is unmatched.
-            Balancing academics, personal time, and social life is a juggling act, but organization is key.
+            "Programming tasks can be both exhilarating and tough at times.  
+             Debugging feels like piecing together a complex puzzle, but the triumph of fixing errors is incredibly rewarding.  
+             Balancing studies, friendships, and personal moments requires effort, but planning ahead keeps everything in harmony."
             """
         )
 
