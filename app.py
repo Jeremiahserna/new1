@@ -38,14 +38,13 @@ except FileNotFoundError as e:
 # Header section
 with st.container():
     st.subheader("Hi, I am Jeremiah Serna")
-    st.title("Discover How Fun Computer Engineering Can Be!")
+    st.title("The Computer Engineering Journey: Follow My Blog for Insights and Inspiration")
     st.write(
         """
-        Welcome to my blog! Join me as I explore the exciting world of Computer Engineering.
-        I'll share insights, challenges, and the joys of being a Computer Engineering student.
+        Welcome to my blog! Are you curious about Computer Engineering? I'm here to share my journey, from coding challenges to exciting breakthroughs. Join me as we explore the world of technology together, from cutting-edge innovations to the everyday problem-solving that shapes our digital world. Whether you're a beginner or a seasoned pro, there's something here for everyone.
         """
     )
-    st.write("[Message me on Gmail >](mailto:haidergrace2@gmail.com)")
+    st.write("[Contact me via Gmail ](mailto:jeremiahserna33@gmail.com)")
 
 # First-year perspective section
 with st.container():
