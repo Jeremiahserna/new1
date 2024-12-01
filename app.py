@@ -76,15 +76,15 @@ with st.container():
     with text_column:
         st.write(
             """
-            -Speaking of courses, oh, the rollercoaster of emotions that comes with programming assignments! The thrill of solving problems mixed with the occasional dread of tackling bugs kept me on my toes. Debugging became my mental workout, and nothing compares to the euphoria of squashing a stubborn bug after hours of trial and error.  
+            Speaking of courses, oh, the rollercoaster of emotions that comes with programming assignments! The thrill of solving problems mixed with the occasional dread of tackling bugs kept me on my toes. Debugging became my mental workout, and nothing compares to the euphoria of squashing a stubborn bug after hours of trial and error.  
 
--The challenge of balancing academics, social life, and personal growth is real, but it’s a dance I’ve learned to master with the help of organization and time management—my ultimate companions on this journey.  
+            The challenge of balancing academics, social life, and personal growth is real, but it’s a dance I’ve learned to master with the help of organization and time management—my ultimate companions on this journey.  
 
--The freshman year of computer engineering is a whirlwind adventure—a blend of curiosity, obstacles, and countless moments of discovery.  
+            The freshman year of computer engineering is a whirlwind adventure—a blend of curiosity, obstacles, and countless moments of discovery.  
 
--Every snippet of code I write brings me closer to unraveling the fascinating intricacies of technology and innovation.  
+            Every snippet of code I write brings me closer to unraveling the fascinating intricacies of technology and innovation.  
 
--So, to all aspiring freshmen or budding tech enthusiasts, I invite you to embark on this incredible journey. Together, let’s decode the mysteries of computer engineering, one project and one bug at a time!  
+            So, to all aspiring freshmen or budding tech enthusiasts, I invite you to embark on this incredible journey. Together, let’s decode the mysteries of computer engineering, one project and one bug at a time!  
             """
         )
 
@@ -94,21 +94,21 @@ with st.container():
     st.subheader("PROS AND CONS")
     st.write("### PROS:")
     st.write("""
-    1. Lucrative career opportunities with high demand for programmers.
-    2. Develop logical thinking and problem-solving skills.
-    3. Creativity in building unique solutions.
-    4. Flexibility in work environments, including remote work.
-    5. Continuous learning in a dynamic field.
-    6. Connect with a global community of developers.
+    1. Diverse career opportunities with high earning potential.
+    2. Strengthens logical reasoning and structured thinking.
+    3. Empowers creativity through designing and coding projects.
+    4. Flexible work styles, including freelance and remote options.
+    5. Endless opportunities to learn and grow in a fast-evolving field.
+    6. Join a supportive and innovative global tech community.
     """)
     st.write("### CONS:")
     st.write("""
-    1. Steep learning curve for beginners.
-    2. Sedentary work may impact physical health.
-    3. Debugging can be time-consuming and frustrating.
-    4. Rapid technological changes require continuous learning.
-    5. Isolation in some work environments.
-    6. Managing code complexity in large projects.
+    1. Can be daunting for newcomers due to complex concepts.
+    2. Long hours of screen time can strain health and posture.
+    3. Debugging challenges can be mentally exhausting.
+    4. Constant need to stay updated with emerging trends and tools.
+    5. Risk of feeling isolated in solitary work settings.
+    6. Managing large-scale projects requires significant effort and focus.
     """)
 
 # Contact form section
