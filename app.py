@@ -76,9 +76,15 @@ with st.container():
     with text_column:
         st.write(
             """
-            "Programming tasks can be both exhilarating and tough at times.  
-             Debugging feels like piecing together a complex puzzle, but the triumph of fixing errors is incredibly rewarding.  
-             Balancing studies, friendships, and personal moments requires effort, but planning ahead keeps everything in harmony."
+            -Speaking of courses, oh, the rollercoaster of emotions that comes with programming assignments! The thrill of solving problems mixed with the occasional dread of tackling bugs kept me on my toes. Debugging became my mental workout, and nothing compares to the euphoria of squashing a stubborn bug after hours of trial and error.  
+
+-The challenge of balancing academics, social life, and personal growth is real, but it’s a dance I’ve learned to master with the help of organization and time management—my ultimate companions on this journey.  
+
+-The freshman year of computer engineering is a whirlwind adventure—a blend of curiosity, obstacles, and countless moments of discovery.  
+
+-Every snippet of code I write brings me closer to unraveling the fascinating intricacies of technology and innovation.  
+
+-So, to all aspiring freshmen or budding tech enthusiasts, I invite you to embark on this incredible journey. Together, let’s decode the mysteries of computer engineering, one project and one bug at a time!  
             """
         )
 
