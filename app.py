@@ -70,7 +70,7 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         if img_contact_form:
-            st.image(img_contact_form, caption="Debugging: The Ultimate Puzzle")
+            st.image(img_contact_form, caption="Debugging: Take everything as a challenge")
         else:
             st.error("Image not loaded.")
     with text_column:
